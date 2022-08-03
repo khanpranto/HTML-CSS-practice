@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    color: none;
+
+}
+ul,ol{
+    list-style-type: none;
+}
+
+.main{
+    width: 800px;
+    height: 400px;
+    background: brown;
+    margin: 0 auto;
+    overflow: auto;
+}
+.one{
+    width: 240px;
+    height: 60px;
+    background:wheat;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+
+}
+.one h2{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.two{
+    width: 240px;
+    height: 60px;
+    background:seashell;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.three{
+    width: 240px;
+    height: 60px;
+    background: blanchedalmond;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
