@@ -1,0 +1,219 @@
+.main{
+    width: 800px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.one{
+    width: 800px;
+    height: 50px;
+    background-color: aliceblue;
+}
+
+.one h2{
+    text-align: center;
+    padding: 10px;
+    color: indianred;
+}
+
+.two{
+    width: 800px;
+    height: 200px;
+    background-color:rgb(74, 66, 82);
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.a{
+    width: 150px;
+    height: 100px;
+    background-color:azure ;
+    margin: 55px;
+    float: left;
+    margin-top: ;
+}
+.a p{
+   
+    padding-left: 44px;
+    padding-top: 25px;
+    color: rgb(197, 146, 17);
+    font-style: oblique;
+}
+
+
+.b{
+    width: 150px;
+    height: 100px;
+    background-color:azure ;
+    margin: 55px;
+    float: left;
+
+}
+.b p{
+   
+    padding-left: 60px;
+    padding-top: 25px;
+    color: rgb(197, 146, 17);
+    font-style: oblique;
+}
+.c{
+    width: 150px;
+    height: 100px;
+    background-color:azure ;
+    margin: 55px;
+    float: left;
+ }
+
+ .c p{
+   
+    padding-left: 44px;
+    padding-top: 25px;
+    color: rgb(197, 146, 17);
+    font-style: oblique;
+}
+
+.three{
+    
+    width: 800px;
+    height: 450px;
+    background-color: rgb(193, 199, 199);
+    margin: 10px;
+    background: url(../images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+
+.three p{
+
+    color: aliceblue;
+    text-align: center;
+    padding-top: 420px;
+}
+
+.main2{
+    width: 800px;
+   
+    margin: 0 auto;
+    
+    margin-top: 10px;
+    
+}
+.header{
+    width: 800px;
+    height: 30px;
+    background-color: aliceblue;
+}
+
+.logo{
+    width: 200px;
+    height: 30px;
+    float: left;
+   
+}
+
+.menu {
+
+    width: 600px;
+    float: left;
+    text-align: right;
+    
+
+}
+
+.menu a{
+    padding-left: 60px;
+    line-height: 30px;
+    text-decoration: none;
+    
+    color: #000;
+}
+
+.menu a :hover{
+    color: rgb(159, 22, 22);
+    background-color: black;
+
+}
+
+.banner{
+    width: 800px;
+}
+
+.banner img{
+    padding-top: 10px;
+    width:100%;
+}
+
+.store{
+    margin-top: 10px;
+    width: 800px;
+    height: 150px;
+    background-color: aliceblue;
+}
+.buy{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(98, 149, 139);
+    float: left;
+}
+.sell{
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+    float: left;
+}
+
+.exchange{
+    width: 200px;
+    height: 150px;
+    background-color: cadetblue;
+    float: left;
+}
+
+
+.location{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(8, 72, 72);
+    float: left;
+}
+
+.buy h2{
+    color: rgb(221, 225, 215);
+    text-align: center;
+    padding: auto;
+}
+.buy p{
+    color: #000;
+    text-align: center;
+    font-style: italic;
+    padding: auto;
+}
+
+.sell h2{
+    color: rgb(221, 225, 215);
+    text-align: center;
+    padding: auto;
+}
+.sell p{
+    color: #000;
+    text-align: center;
+    font-style: italic;
+    padding: auto;
+}
+
+.exchange h2{
+    color: rgb(221, 225, 215);
+    text-align: center;
+    padding: auto;
+}
+.exchange p{
+    color: #000;
+    text-align: center;
+    font-style: italic;
+    padding: auto;
+}
+.location h2{
+    color: rgb(221, 225, 215);
+    text-align: center;
+    padding: auto;
