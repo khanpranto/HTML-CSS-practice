@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+.clr{
+    clear: both;
+}
+
+.main{
+    height: 600px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: black;
+    position: relative;
+}
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.two{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(22, 9, 107);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.three{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(199, 195, 221);
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+.four{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(163, 27, 159);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.five{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(125, 190, 11, 0.849);
+    position: absolute;
+    top: 0;
+    right:50%;
+    transform: translateX(50%);
+
+}
+.five:after{
+    position: absolute;
+    content: '';
+    background: rgb(23, 88, 145);
+    height: 150px;
+    width: 8px;
+    left: 45%;
+    bottom: -150px;
+    
+}
+.six{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(211, 205, 6, 0.849);
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+    
+}
+.six:after{
+    position:absolute;
+    content: '';
+    background: rgb(23, 88, 145);
+    height: 6px;
+    width: 250px;
+    top: 50%;
+    left:  -375px;
+    transform: translateX(50%);
+    
+}
+.seven{
+    height:100px;
+    width: 100px;
+    background: rgb(225, 216, 216);
+    position:absolute;
+    bottom: 50%;
+
+    left: 0;
+    transform: translateY(50%);
+}
+.seven:after{
+    position:absolute;
+    content: '';
+    background: rgb(23, 88, 145);
+    height: 6px;
+    width: 300px;
+    top: 50px;
+    right: -150px;
+    transform:translateX(50%);
+}
+.eight{
+    height: 100px;
+    width: 100px;
+    background: rgb(5, 105, 68);
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.eight:after{
+    position: absolute;
+    content: '';
+    background: aliceblue;
+    height: 170px;
+    width: 8px;
+    top: -85px;
+    right: 46%;
+    transform: translateY(-50%);
+}
+.nine{
+    height: 200px;
+    width: 200px;
+    background: rgba(90, 12, 56, 0.486);
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+}
+.nine1{
+    height:100px;
+    width: 100px;
+    background-color: rgb(27, 179, 52);
+    position: absolute;
+    right:0;
+    bottom:0;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+
+}
+.nine2{
+    height: 50%;
+    width: 50%;
+    background: yellow;
+    position:absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%,50%);
+    border-radius: 50%;
+}
+
