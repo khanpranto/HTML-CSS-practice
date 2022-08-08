@@ -1,0 +1,39 @@
+.main{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background:cornflowerblue ;
+    background: url(../images/6.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+ .main::after{
+    position: absolute;
+    content: '';
+    background: rgba(20, 18, 17, 0.495);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+ }
+.text-banner{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    z-index: 33;
+    padding-bottom: 50px;
+    color: antiquewhite;
+}
+.text-banner p{
+    font-size: 30px;
+    color: aliceblue;
+    padding-bottom: 80px;
+    font-style: oblique;
+}
+.text-banner h2{
+    font-style: oblique;
+}
