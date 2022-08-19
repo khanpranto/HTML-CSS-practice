@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr{
+
+    clear: both;
+}
+.main{
+    width: 100%;
+    position: relative;
+    background-color: beige;
+    z-index: 9;
+}
+/*mobile bazar logo*/
+.one{
+    
+    width: 20%;
+    height: 100%;
+    background-color: black;
+    float: left;
+    line-height: 100px;
+    
+    
+}
+.one p{
+    font-family: cursive;
+    color: aliceblue;
+    text-align: center;
+    
+}
+.two{
+    width: 80%;
+    height: 100%;
+    background-color: lightslategray;
+    float: left;
+    text-align: center;
+    z-index: 333;
+}
+.two ul li{
+    display: inline-block;
+    position: relative;
+    
+}
+.two ul li a{
+    
+    position: relative;
+    line-height: 100px;
+    padding:0 30px;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.two ul li a::after{
+    position: absolute;
+    content: ' ';
+    height: 3px;
+    width: 50%;
+    background: black;
+    bottom: 0px;
+    left: 50%;
+    opacity: 0;
+    transition: all linear .3s;
+    transform: translateX(-50%)
+}
+.two ul li a:hover{
+    background: white;
+    color: black;
+}
+.two ul li a:hover::after{
+
+    opacity: 1;
+    width: 100%;
+}
+.two ul li ul{
+    position: absolute;
+    visibility: hidden;
+    background: pink;
+    width: 200px;
+    left: -20%;
+    
+}
+.two ul li ul li{
+    width: 100%;
+   
+}
+.two ul li:hover> ul{
+    visibility: visible;
+}
+.main2{
+    width: 100%;
+    background:url(../images/image\ \(4\).jpg);
+    padding-top: 300px;
+    padding-bottom: 250px;
+    text-align: center;
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.main2::after{
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(46, 48, 32, 0.69);
+}
+.textrea p{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.textrea{
+    position:relative;
+    z-index: 99;
+}
+.main3{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background: turquoise;
+}
+.m31{
+    width: 50%;
+    height: 100%;
+    background:white;
+    float: left;
+    
+}
+.m31 h2{
+    line-height: 300px;
+    text-align: center;
+    color: rgb(18, 18, 19);
+    font-family:'Courier New', Courier, monospace;
+}
+.m32{
+    width: 50%;
+    height: 100%;
+    background: url(../images/shipping-gd915f1063_640.jpg);
+    float: left;
+    background-position: center;
+    background-size: -200%;
+    background-repeat: no-repeat;
+}
+
+.main4{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background: white
+}
+.m42{
+    width: 50%;
+    height: 100%;
+    background: rgb(18, 18, 19);
+    float: left;
+    
+}
+.m42 h2{
+    line-height: 300px;
+    text-align: center;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;;
+}
+.m41{
+    width: 50%;
+    height: 100%;
+    background: url(../images/images\ \(2\).jpg);
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main5{
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background: turquoise;
+}
+.m51{
+    width: 50%;
+    height: 100%;
+    background: rgb(49, 58, 58);
+    float: left;
+    
+}
+.m51 h2{
+    line-height: 300px;
+    text-align: center;
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+}
+.m52{
+    width: 50%;
+    height: 100%;
+    background: url(../images/images\ \(1\).jpg);
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
